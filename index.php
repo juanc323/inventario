@@ -1,6 +1,6 @@
 <?php
 
-require_once ('core/core');
+// require_once ('core/core');
 
 $c = isset($_REQUEST['c']) ? $_REQUEST ['c'] : 'index';
 
