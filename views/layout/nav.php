@@ -3,15 +3,14 @@
     <nav class="navbar navbar-inverse stiloletra">
         <div class="container-fluid">
             <div class="navbar-header">
-            <a class="navbar-brand" href="#" style="font-size= 30px" >Main Licor</a>
+            <a class="navbar-brand" href="#" style="font-size= 30px" >Main Liquor's</a>
             </div>
             <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Inicio</a></li>
             <li><a href="#">Catalogo</a></li>
             <li><a href="#">Empleados</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            <li><a href="?c=Login&m=index"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
             </ul>
         </div>
     </nav>

@@ -11,7 +11,25 @@
   
   .stiloletra1{
         font-family: 'Calligraffitti';
-        font-size: 40px;
+        font-size: 60px;
         color: #ffffff;
+        text-align: center;
 
     }
+.espacio{
+    margin-top: 20rem;
+}
+
+
+/* Login */
+
+.fondo{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.stiloletra2{
+    font-family: 'Courgette';
+    font-size: 30px;
+    color: #ffffff;
+}
