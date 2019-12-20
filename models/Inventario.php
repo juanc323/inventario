@@ -2,7 +2,7 @@
 
     class Inventario extends DB{
 
-
+        
         public function request(){
             try{
                 $stm=parent::conectar()->prepare("SELECT * FROM productos INNER JOIN tipo_producto ON fk_tipo_producto = tipo_producto.id_tipo_producto");
