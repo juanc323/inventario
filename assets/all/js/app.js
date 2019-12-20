@@ -1,0 +1,1 @@
+const imageUploader = document.getElementById('image ');

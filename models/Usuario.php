@@ -1,9 +1,9 @@
 <?php
 class Usuario extends DB{
 
-    public function stored($nombres, $apellidos, $correo, $password, $date){
+    public function stored($nombres, $apellidos, $correo, $password){
         try{
-            $str = parent::conectar()->prepare("INSERT INTO usuario(nombres,apellidos,correo,password_user, fecha_creacion) VALUES ('$nombres', '$apellidos', '$correo', '$password', '$date') ");
+            $str = parent::conectar()->prepare("INSERT INTO usuario(nombres,apellidos,correo,password_user) VALUES ('$nombres', '$apellidos', '$correo', '$password') ");
             $str->execute();
         }catch(Exception $e){
             die("error".$e->getMessage());

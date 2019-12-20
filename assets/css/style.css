@@ -33,3 +33,20 @@
     font-size: 30px;
     color: #ffffff;
 }
+
+/* inventario */
+.tamimg{
+    width: 100px;
+    height: 100px;
+}
+
+.stiloletra3{
+    font-family: 'Courgette';
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.espacio2{
+    margin-top: 10rem;
+}
