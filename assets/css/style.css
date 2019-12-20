@@ -5,7 +5,7 @@
 
 }  
   
-  
+  /* end nav */
   
   /* index */
   
@@ -20,6 +20,7 @@
     margin-top: 20rem;
 }
 
+/* end index */
 
 /* Login */
 
@@ -49,4 +50,30 @@
 
 .espacio2{
     margin-top: 10rem;
+}
+/* end login */
+
+/* catalogo */
+
+.mar{
+    margin-top: 10rem;
+}
+
+.mar2{
+    margin-top: 5rem;
+}
+
+.img1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+    
+}
+
+.stileletra{
+    font-family: 'Courgette';
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
 }

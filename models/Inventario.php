@@ -33,7 +33,31 @@
                die($e->getMessage());
             }
         }
-    
+        public function update($fk_tipo_producto,$producto,$cantidad,$precio,$id){
+            try{
+                $stm = parent::conectar()->prepare("UPDATE productos SET fk_tipo_producto='$fk_tipo_producto',  producto='$producto',  cantidad='$cantidad',  precio='$precio'  WHERE id_producto=$id");
+                $stm->execute();
+            }catch(Exception $e){
+                die($e->getMessage());
+            }
+        }
+        	
+		public function eliminar($id){
+			try{
+				$stm = parent::conectar()->prepare("DELETE FROM productos WHERE id_producto=$id ");
+				$stm->execute();
+			}catch(Exception $e){
+				die($e->getMessage());
+			}
+        }
+        public function insert($tipo_producto){
+            try{
+                $stm = parent::conectar()->prepare("INSERT INTO tipo_producto(tipo_producto) VALUES ('$tipo_producto')");
+                $stm->execute();
+            }catch(Exception $e){
+                die($e->getMessage());
+            }
+        }
 
     }
 

@@ -7,6 +7,7 @@
 
 <div class="col-md-8 col-md-offset-1 espacio2">
 <a class="btn btn-warning" href="?c=Inventario&m=create">Crear nuevo Producto</a>
+<a class="btn btn-warning" href="?c=Inventario&m=createProducto">Crear tipo Producto</a>
 <br><br>
     <table class="table table-bordered">
         <tr class="stiloletra3">
@@ -25,8 +26,8 @@
             <td><?php echo $r->producto ?></td>
             <td><?php echo $r->cantidad ?></td>
             <td><?php echo $r->precio ?></td>
-            <td><a class="btn btn-link" href="?c=Inventario&m=actualizar&id=<?php echo $r->id_producto ?>" >Editar</a></td>
-            <td><?php  ?></td>
+            <td><a href="?c=Inventario&m=actualizar&id=<?php echo $r->id_producto ?>"class="btn btn-info" >Editar</a></td>
+            <td><a href="?c=inventario&m=destroy&id=<?php echo $r->id_producto; ?>" class="btn btn-danger ">Eliminar</a></td>
         <?php  } ?>
 
     </table>

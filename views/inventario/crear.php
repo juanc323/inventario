@@ -1,13 +1,11 @@
 
 <?php require_once ('views/layout/head.php')?>
-<body background="assets/all/img/fon1.jpg"> 
+<body class="fondo" background="assets/all/img/fon3.jpg"> 
 <?php  require_once ('views/layout/nav.php')  ?>
 
-<div>
-    <a class="btn btn-info" href="?c=Inventario&m=index">volver</a>
-</div>
 
-<div class="col-md-4 col-md-offset-3">
+
+<div class="col-md-4 col-md-offset-3 stiloletra2">
     <form action="?c=Inventario&m=crear" method="post">
         <label for="">Tipo Producto</label>
             <select name="fk_tipo_producto" class="form-control">
@@ -36,6 +34,7 @@
             </div>
 
                 <button type="submit" class="btn btn-success">Crear</button>
+                <a class="btn btn-info" href="?c=Inventario&m=index">volver</a>
             
         
 
